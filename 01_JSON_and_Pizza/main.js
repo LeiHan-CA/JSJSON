@@ -9,7 +9,7 @@ request.responseType = 'json';
 request.send();
 
 //wait for the request to be returned, store the response in a variable
-//invoke pizzaTypes function with pozzaTypes as argument
+//invoke pizzaTypes function with pizzaTypes as argument
 request.onload = function(){
     let plentyPizza = request.response;
     console.log(plentyPizza);
